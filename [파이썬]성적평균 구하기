@@ -1,0 +1,12 @@
+i=0
+sum=0
+avr=0
+a=int(input())
+
+while a!=0:
+    sum=sum+a
+    i=i+1
+    a=int(input())
+    avr=sum/i
+print(sum)
+print(avr)
