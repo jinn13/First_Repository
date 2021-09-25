@@ -1,0 +1,24 @@
+2. 교수님의 마음으로
+
+#주어진 미션을 수행해볼까요?
+score=int(input())
+if 88>score>=77:
+    print("A0")
+elif score>=88:
+    print("A+")
+elif score==0:
+    print("F")
+else:
+    print("B+")
+​
+
+​
+
+3. 무기강화
+
+item1="완전 좋고"
+item2="빛나며"
+item3="손에 착착 감기는"
+
+weapon=item1+" "+item2+" "+item3+' 무기'
+print(weapon)
