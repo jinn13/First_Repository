@@ -1,0 +1,18 @@
+1. 2020.12.25를 입력하면 25-12-2020 출력하기
+
+입력 : a.b.c    출력 : c-b-a
+
+a, b, c=input().split('.')
+print(c, b, a, sep='-')
+
+a, b, c=input().split(':')
+print(b)
+​
+
+2. 공백을 기준으로 a와 b값 받기→그 후 합계내기
+
+a, b=input().split(' ')
+c=int(a)+int(b)
+print(c)
+
+print(int(a)+int(b))
