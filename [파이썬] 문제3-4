@@ -1,0 +1,11 @@
+3. 아스키코드값으로 출력
+
+﻿a=ord(input())
+print(a)
+​
+
+4. c에 저장되어 있는 정수값을 유니코드 문자로 출력
+
+a=int(input())
+c=chr(a)
+print(c)
