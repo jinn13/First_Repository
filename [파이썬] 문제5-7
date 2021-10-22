@@ -1,0 +1,26 @@
+5. a 입력하면 그 다음 아스키 문자인 b 출력하기
+a=input()
+b=ord(a)
+c=chr(b+1)
+print(c)
+
+6. 소수점 둘째 자리까지 출력
+a=float(input())
+b=(format(a, ".2f"))
+print(b)
+
+7. 합, 차, 곱, 몫, 나머지, 나눈 값을 순서대로 출력하기 (실수, 소수점 이하 둘째 자리까지의 정확도로 출력)
+a, b=input().split(' ')
+c=int(a)
+d=int(b)
+e=c/d
+f=float(e)
+g=format(f, ".2f")
+
+print(c+d)
+print(c-d)
+print(c*d)
+print(c//d)
+print(c%d)
+print(g)
+​
